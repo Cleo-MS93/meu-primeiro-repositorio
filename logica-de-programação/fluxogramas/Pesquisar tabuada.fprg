@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cleo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 05:52:43 "/>
+        <attribute name="created" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMTsiMDQ6NDc6MzEgIjsyNjIy"/>
+        <attribute name="edited" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMTsiMDU6NTI6NDMgIjs0OzI3MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, numero2" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <output expression="&quot;Digite qual tabuada deseja ver:&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <while expression="numero&lt;=limite">
+                <output expression="numero2&amp;&quot; x &quot;&amp;numero&amp;&quot; = &quot;&amp;numero2*numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

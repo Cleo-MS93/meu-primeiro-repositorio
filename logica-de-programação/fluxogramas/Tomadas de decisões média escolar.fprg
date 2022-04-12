@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cleo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 11:10:43 "/>
+        <attribute name="created" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMDsiMTA6NTY6MTkgIjsyNjI0"/>
+        <attribute name="edited" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMDsiMTE6MTA6NDMgIjsyOzI3MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <output expression="&quot;PARAB&#201;NS! Vc foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente vc foi reprovado!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

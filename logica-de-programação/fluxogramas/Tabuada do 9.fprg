@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cleo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 05:07:22 "/>
+        <attribute name="created" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMTsiMDQ6NDc6MzEgIjsyNjIy"/>
+        <attribute name="edited" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMi0wMS0yMTsiMDU6MDc6MjIgIjsxOzI3Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="final, numero, numero2, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero2" expression="9"/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <assign variable="final" expression="90"/>
+            <while expression="numero2&lt;=final">
+                <output expression="&quot;9x&quot;&amp;numero&amp;&quot;=&quot;&amp;numero2" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+                <assign variable="numero2" expression="numero2+9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

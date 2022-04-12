@@ -1,0 +1,17 @@
+    link para download do flowgorithm: http://www.flowgorithm.org/download/
+    link para download do portugol: http://lite.acad.univali.br/portugol/
+
+    O que é o portugol?
+    É uma pseudo-linguagem algorítmica muito utilizada na descrição de algoritmos, destaca-se 
+  pelo uso de comandos em português, o que facilita o aprendizado da lógica de programação, habituando
+  o iniciante com o formalismo de programação.
+
+    O que é lógica de programação?
+    É a técnica de encadear pensamentos para atingir determinado objetivo. Estes pensamentos, podem ser 
+  descritos como uma seqüência de instruções, que devem ser seguidas para se cumprir uma determinada 
+  tarefa. Seqüência Lógica são passos executados até atingir um objetivo ou solução de um problema.
+
+    O que é algoritmo?
+    sequência finita de regras, raciocínios ou operações que, aplicada a um número finito de dados, permite
+  solucionar classes semelhantes de problemas.
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cleo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-21 03:20:14 "/>
+        <attribute name="created" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMS0xMS0yMTsiMDM6MDI6MzIgIjsyNjEz"/>
+        <attribute name="edited" value="Q2xlbztERVNLVE9QLTY3TEE1U1I7MjAyMS0xMS0yMTsiMDM6MjA6MTQgIjsxOzI3MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="9"/>
+            <assign variable="b" expression="a*5"/>
+            <assign variable="c" expression="b-a"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
