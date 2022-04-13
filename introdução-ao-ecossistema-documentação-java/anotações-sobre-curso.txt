@@ -1,0 +1,171 @@
+   			Anotações sobre o curso
+    
+
+    O que é a JVM?
+    JVM (Java Virtual Machine) é uma maquina virtual responsável pela
+  tradução dos ByteCodes oriundos do compilador Javac (Java Compiler) em 
+  código de máquina de cada sistema operacional.
+    
+  Características:
+  
+  Execução de pilhas
+  Gerenciamento de memória
+  Gerenciamento e execução de threads
+  Otimização de código(Compilação JIT - JustIn Time)
+  Garbage Collector(GC)
+
+    O GC é responsável por fazer toda limpeza da memória que chamamos 
+  de memória suja.
+
+    
+    Diferenças entre JRE e JDK:
+  JRE(Java Runtime Environment) - responsável por executar os programas
+  em Java.
+  
+  JDK(Java Development Kit) - utilitários que permite o desenvolvimento de
+  programas em Java. Já possui a JVM para executar os programas.
+
+    
+    	                  Palavras reservadas
+       abstract	       continue	        goto		 package		    
+       assert	       defaut	        if	         private
+       boolean	       do		implements	 protected     			
+       break	       double	        import	         public
+       byte	       else		instanceof       return
+       case	       enum		int		 short
+       catch	       extends	        interface	 static
+       char	       final		long             strictfp
+       class	       finally	        native	         super
+       const	       float		new	         switch
+
+
+                        Modificadores de acesso
+    Tipos de modificadores:
+
+    public - Qualquer classe de qualquer pacote poderá acessar o
+    atributo ou método.
+
+    protected - Qualquer classe definida mo mesmo pacote ou subclasse.
+
+    Sem modificador - Apenas classes definidas no mesmo pacote.
+
+    private - Apenas a própria classe.
+
+
+    O que são metodos?
+    Métodos são funções que definem o comportamento de uma 
+  classe.
+
+    Tipos de métodos:
+
+    Métodos construtores - Definem como uma classe será
+    instanciada "construida"
+
+    Métodos comum - Definem comportamentos que podem ou 
+    não estar atribuídas às regras de negócio. Ex: calcular taxas 
+    um pedido, etc.
+  
+
+    O que é estrutura de condição?
+    Estrutura de condição é responsável por fazer desvio do fluxo de 
+  execução do código de acordo com uma dada condição.
+    Existem dois tipos de estrutura de condição sendo elas a estrutura 
+  "if - else" e a "switch - case".
+
+    if - else: A condicional if  é uma estrutura condicional que executa
+  a afirmação, dentro do bloco, se determinada condição for verdadeira. Se
+  for falsa, executa as afirmações dentro de else.
+
+  Sintaxe: if (condição) afirmação1 [else afirmação2]
+  
+    Múltiplas condicionais if ... else podem ser aninhados quando
+  necessário. Observe que não existe elseif (em uma palavra). O correto é
+  a instrução com espaços (else if), conforme abaixo:
+
+    if (condição1)
+       instrução1
+    else
+       if (condição2)
+          instrução2
+       else
+          if (condição3)
+    ...
+
+    switch - case: A declaração condicional switch testa o valor de uma 
+  variável, e dependendo do valor contido nessa variável, permite executar
+  uma entre múltiplas escolhas de ações. Desta forma, é possível substituir
+  múltiplos “ifs” encadeados por um código mais simples de criar, entender e
+  manter posteriormente.
+
+  Sintaxe: 
+
+  switch (variável) {
+    case valor1:
+      código se variável = valor1;
+      break;
+    case valor2:
+      código se variável = valor2;
+      break;
+    case valorN:
+      código se variável = valorN;
+      break;
+    default:
+      código se variável diferente de todos os valores;
+  }
+
+    O condicional switch testa o valor contido em uma variável e o compara
+  com os valores fornecidos em cada caso, representados pela palavra reservada
+  case. Podemos ter quantos casos forem necessários na estrutura, e quando um
+  dos valores corresponder ao da variável de teste, o código do caso será executado.
+
+  Mais sobre estruturas de condição.
+  link: http://docente.ifsc.edu.br/vilson.junior/ed/IP_08_Java_Decisao.pdf 
+
+
+    O que é uma estrutura de repetição?
+    Estrutura de repetição é reponsável por executar repetitivamente
+  uma instrução ou um bloco de instruções até uma condição estiver sendo
+  satisfeita.
+
+    Em Java temos quatro tipos de estruturas de repetição, "while", "do - while", 
+  "for" e "enhanced for".
+
+    Para saber mais sobre elas.
+    link 1: https://tableless.com.br/java-estruturas-de-repeticao/
+    link 2: https://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-java
+  
+
+    O que é javadoc?
+    Javadoc é uma ferramenta para documentação no formato HTML que se
+  baseia nos comentários do código fonte.
+    Os comentãrios precisam conter tags para que a documentação fique
+  legível.
+
+    Tags Javadoc:
+    @author - Nome do desenvolvedor
+
+    @deprecated - Marca o método como deprecated. Algumas IDEs exibirão
+    um alerta de compilação se o método for chamado.
+
+    @exception - Documenta uma exceção lançada por um método.
+
+    @param - Define um parâmetro do método. Requerido para cada parâmetro.
+
+    @return - Documenta o valor de retorno. Essa tag não deve ser usada
+    para construtores ou métodos definidos com o tipo de retorno void.
+
+    @see - Documenta uma associação a outro método ou classe.
+
+    @since - Documenta quando o método foi adicionado a a classe.
+
+    @throws - Documenta uma exceção lançada por um método. É um
+    sinônimo para a @exception introduzida no Javadoc 1.2.
+
+    @version - Exibe o número da versão de uma classe ou um método.
+
+    Saiba mais sobre Javadoc e suas tags.
+
+    link: https://pt.wikipedia.org/wiki/Javadoc
+
+
+    
